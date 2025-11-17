@@ -54,4 +54,7 @@ def reverse_message():
 reverse_button = tk.Button(window, text="Reverse Message!",font =("Arial",14), 
                             command=reverse_message)
 reverse_button.pack(pady=10)
-# K
+# Keeps the window open and waiting for clicks or typing 
+window.mainloop()
+
+
